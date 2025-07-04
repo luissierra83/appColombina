@@ -1,0 +1,26 @@
+name: comprobante_pedido
+description: A Flutter app that prints and exports a receipt.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  esc_pos_printer: ^4.0.3
+  esc_pos_utils: ^1.1.0
+  bluetooth_thermal_printer: ^1.1.0
+  intl: ^0.18.1
+  pdf: ^3.10.4
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
